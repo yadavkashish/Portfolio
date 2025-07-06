@@ -26,10 +26,10 @@ A modern, fully responsive developer portfolio website built using **Vite**, **R
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Vite, Tailwind CSS, Framer Motion / AOS
-- **Icons & Assets:** React Icons, Styled Components (if used)
+- **Frontend:** React.js, Vite, Tailwind CSS, Framer Motion
+- **Icons & Assets:** React Icons, Styled Components
 - **Animations:** Framer Motion, CSS transitions
-- **Deployment:** GitHub Pages / Vercel / Netlify
+- **Deployment:** Netlify
 
 ---
 
