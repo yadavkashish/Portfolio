@@ -1,0 +1,60 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Typing animation */
+.text-animation .typing-text::before {
+  content: "B.Tech CSIT Student.";
+  animation: words 20s infinite;
+}
+
+.text-animation .typing-text::after {
+  content: "";
+  position: absolute;
+  background-color: var(--bg-color);
+  height: 100%;
+  width: calc(100% + 8px);
+  right: -8px;
+  border-left: 3px solid var(--bg-color);
+  animation: cursor 0.7s infinite, typing 20s steps(22) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid var(--main-color);
+  }
+}
+
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+    width: 0;
+  }
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 90px);
+  }
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply bg-[var(--main-color)] text-black px-6 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition;
+}
+
+.btn-secondary {
+  @apply border-2 border-[var(--main-color)] text-[var(--main-color)] px-6 py-3 rounded-full font-semibold hover:bg-[var(--main-color)] hover:text-black transition;
+}
+
+/* Social Icons */
+.social-icon {
+  @apply text-3xl border-2 border-[var(--main-color)] rounded-full w-12 h-12 flex items-center justify-center transition hover:scale-110 hover:bg-[var(--main-color)] hover:text-black;
+}
