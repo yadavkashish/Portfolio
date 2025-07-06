@@ -4,7 +4,8 @@ A modern, fully responsive developer portfolio website built using **Vite**, **R
 
 ## 🚀 Live Demo
 
-[👉 View Portfolio]([https://your-live-site-link.com](https://kashishyadavportfolio.netlify.app/))
+[👉 View Portfolio](https://kashishyadavportfolio.netlify.app/)
+
 
 ---
 
