@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
+import AmoraProject from "./pages/AmoraProject";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <section id="home"><Hero /></section>
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
-        <section id="projects"><Projects /></section>
+        <section id="projects"> <AmoraProject /></section>
+        
         <section id="experience"><Experience /></section>
         <section id="contact"><Contact /></section>
       </main>

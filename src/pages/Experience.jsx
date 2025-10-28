@@ -6,16 +6,16 @@ import Bg from '../components/Bg'; // Adjust path as needed
 const experiences = [
   {
     id: 1,
-    organization: 'Xenosis IT Solutions',
-    role: 'Frontend Development Intern',
-    period: 'Oct 15 – Dec 15, 2024',
+    organization: 'Explified',
+    role: 'SDE Intern',
+    period: 'Sep 24 – Present, 2025',
     description:
-      'Worked on responsive UI design, implemented reusable React components, and contributed to real-world client projects using JavaScript and Tailwind CSS.',
+      'Contributed to full-stack web development by building responsive interfaces, developing reusable React components, and optimizing user experience using JavaScript and Tailwind CSS.',
   },
   {
     id: 2,
     organization: 'DSDL Club, KIET',
-    role: 'Freelance Web Developer',
+    role: 'Web Developer',
     period: 'Jan – Mar 2025',
     description:
       'Built the official website for the club, showcasing events, team, and achievements. Ensured modern UI/UX using React, animations with Framer Motion, and responsive design with Tailwind.',
